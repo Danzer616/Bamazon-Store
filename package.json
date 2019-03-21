@@ -1,5 +1,5 @@
 {
-  "name": "homework10",
+  "name": "Bamazon Store",
   "version": "1.0.0",
   "description": "A Node.js & MySQL digital storefront",
   "main": "index.js",

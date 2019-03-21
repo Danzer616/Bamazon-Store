@@ -16,7 +16,7 @@ var connection = mysql.createConnection({
   
     // Your password
     password: "Cursed4312!",
-    database: "Bamazon"
+    database: "bamazon"
   });
 
 // connect to mySQL database
@@ -152,8 +152,12 @@ function addProduct() {
         message: 'What is the name of the product?',
         type: 'input'
     }, {
-        name: 'department_name',
-        message: 'What is the name of the department?',
+        name: 'author_name',
+        message: 'What is the name of the author?',
+        type: 'input'
+    }, {
+        name: 'genre_name',
+        message: 'What is the genre?',
         type: 'input'
     }, {
         name: 'price',
