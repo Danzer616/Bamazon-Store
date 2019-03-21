@@ -25,7 +25,7 @@ connection.connect(function (err) {
     getAllProducts().then(function (result) {
         // then list them
         result.forEach(function (item) {
-            console.log('Item ID: ' + item.item_id + ' | Product Name: ' + item.product_name + ' | Price: ' + item.price);
+            console.log('Item ID: ' + item.item_id + ' | Title: ' + item.product_name + ' | Author: ' + item.author_name + ' | Genre: ' + item.genre_name + ' | Price: ' + item.price + ' | Stock: ' + item.stock_quantity);
         });
         // then ask what the user would like to do
     }).then(function () {
