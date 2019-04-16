@@ -39,3 +39,17 @@ As you can see, the database is responsive to the input of the user displaying b
 The Bamazon store front also has a manager CLI. Here is an example of the four options available to the manager:
 
 <img align="center" background-color="white" src="images/m1.PNG" width="100%">
+
+The "View Products for Sale" option will display the same list that is available to the customer when the customer.js is opened in the terminal (or the screen shot above).
+
+The "Add to Inventory" option is self-explanatory as it allows you as the acting manager to add your desired quantity to any item:
+
+<img align="center" background-color="white" src="images/m2.PNG" width="100%">
+
+Here is an example of adding two books to the "History of Madness" product:
+
+<img align="center" background-color="white" src="images/m3.PNG" width="100%">
+
+And finally, here is the set of questions generated when selecting the "Add New Product" option as the manager:
+
+<img align="center" background-color="white" src="images/m4.PNG" width="100%">
